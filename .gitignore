@@ -3,3 +3,5 @@
 .project
 .settings
 pom.xml.bak
+.idea
+decimal-infinite.iml
