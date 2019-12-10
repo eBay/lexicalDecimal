@@ -148,12 +148,12 @@ class InfiniteDecimalTest {
     return Stream.of(
         Arguments.of("Around Zero", new BigDecimal("1.11"), new BigDecimal("-1.01"), fnSmallStep3),
         Arguments.of(
-            "Expenonents",
+            "Exponents",
             new BigDecimal("10000000000000000000000"),
             new BigDecimal("0.000000000000000001"),
             fnExpStep),
         Arguments.of(
-            "-ve Expenonents",
+            "-ve Exponents",
             new BigDecimal("-0.000000000000000001"),
             new BigDecimal("-10000000000000000000000"),
             fnExpStepUp),

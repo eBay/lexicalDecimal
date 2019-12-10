@@ -35,9 +35,9 @@ Fourny, Ghislain. (2015). [decimalInfinite: All Decimals In Bits, No Loss, Same 
 	BigDecimal val = BigDecimalEncoding.decode(encoded);
 ```
 
-4. The Bits class
+4. Accessing the encoded value
 
-Encoding returns an instance of Bits that represents the encoded value. As above it can generate
+Encoding returns an instance of the Bits class that represents the encoded value. As above it can generate
 a byte array. In addition it can also write the bits to an existing array or Stream.
 
 ```java
