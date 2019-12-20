@@ -1,4 +1,4 @@
-# Decimal Infinite
+# Lexical Decimal
 
 ## Description
 
@@ -12,14 +12,14 @@ Fourny, Ghislain. (2015). [decimalInfinite: All Decimals In Bits, No Loss, Same 
   
 ## Usage
 
-1. Add a maven dependency.
+1. Add a maven dependency. [maven publication still in progress]
 
 ```xml
  <dependency>
    <groupId>com.ebay.data.encoding</groupId>
-   <artifactId>decimal-infinite</artifactId>
+   <artifactId>lexical-decimal</artifactId>
    <version>1.0</version>
- </dependency> 
+ </dependency>
  ```
 2. Encode a value
 
