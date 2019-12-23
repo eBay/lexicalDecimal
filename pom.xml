@@ -4,7 +4,7 @@
 
   <groupId>com.ebay.data.encoding</groupId>
   <artifactId>lexical-decimal</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
 
   <name>lexical-decimal</name>
   <description>Lexicographical encoding/decoding of BigDecimals</description>
@@ -182,6 +182,7 @@
     <connection>scm:git:https://github.com/eBay/lexicalDecimal.git</connection>
     <developerConnection>scm:git:ssh://github.com/eBay/lexicalDecimal.git</developerConnection>
     <url>https://github.com/eBay/lexicalDecimal/tree/master</url>
+    <tag>v1.0</tag>
   </scm>
 
   <distributionManagement>
