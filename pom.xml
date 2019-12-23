@@ -6,7 +6,8 @@
   <artifactId>lexical-decimal</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <description>Lexicographical encoding of BigDecimal</description>
+  <name>lexical-decimal</name>
+  <description>Lexicographical encoding/decoding of BigDecimals</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -147,4 +148,27 @@
       </plugin>
     </plugins>
   </build>
+
+  <url>https://github.com/eBay/lexicalDecimal</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Simon Fell</name>
+      <email>sfell@ebay.com</email>
+      <organization>eBay</organization>
+      <organizationUrl>https://ebay.github.io/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/eBay/lexicalDecimal.git</connection>
+    <developerConnection>scm:git:ssh://github.com:eBay/lexicalDecimal.git</developerConnection>
+    <url>https://github.com/eBay/lexicalDecimal/tree/master</url>
+  </scm>
 </project>
