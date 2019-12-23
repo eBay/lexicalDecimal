@@ -12,7 +12,7 @@ Fourny, Ghislain. (2015). [decimalInfinite: All Decimals In Bits, No Loss, Same 
   
 ## Usage
 
-1. Add a maven dependency. [maven publication still in progress]
+1. Add a maven dependency.
 
 ```xml
  <dependency>
