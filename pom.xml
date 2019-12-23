@@ -168,7 +168,7 @@
 
   <scm>
     <connection>scm:git:https://github.com/eBay/lexicalDecimal.git</connection>
-    <developerConnection>scm:git:ssh://github.com:eBay/lexicalDecimal.git</developerConnection>
+    <developerConnection>scm:git:ssh://github.com/eBay/lexicalDecimal.git</developerConnection>
     <url>https://github.com/eBay/lexicalDecimal/tree/master</url>
   </scm>
 
