@@ -101,7 +101,11 @@ public class Bits {
     return pos;
   }
 
-  /** The number of bytes needed to store the current value. */
+  /**
+   * The length of the bits in bytes.
+   *
+   * @return The number of bytes needed to store the current value
+   */
   public int byteLength() {
     return (pos + 7) / 8;
   }
@@ -277,6 +281,7 @@ public class Bits {
   /**
    * Writes the value to the supplied stream.
    *
+   * @param os The stream to write to, can't be null.
    * @throws IOException If the write to the stream fails.
    */
   public void writeTo(OutputStream os) throws IOException {
@@ -347,6 +352,8 @@ public class Bits {
   /**
    * Returns a string representation of the value in binary. Bits are split into groups of 4 for
    * readability.
+   *
+   * @return a string representation of the bits.
    */
   public String toBitString() {
     StringBuilder r = new StringBuilder(pos + pos / 4);
